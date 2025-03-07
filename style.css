@@ -71,6 +71,26 @@ img {
     text-align: center;
 }
 
+/* Navigation bar styling */
+.navbar {
+    background-color: #333;
+    overflow: hidden;
+    text-align: center;
+}
+
+.navbar .nav-button {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 1em 2em;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.navbar .nav-button:hover {
+    background-color: #555;
+}
+
 /* Button styling */
 .button-container {
     text-align: center;
@@ -91,8 +111,8 @@ img {
     background-color: #555;
 }
 
-/* Styling for a footer section to take a bit of spcae at the bottom of the page */
-.footer{
+/* Styling for a footer section to take a bit of space at the bottom of the page */
+.footer {
     background-color: rgb(0, 0, 0);
     color: white;
     text-align: right;
