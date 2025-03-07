@@ -71,6 +71,25 @@ img {
     text-align: center;
 }
 
+/* Button styling */
+.button-container {
+    text-align: center;
+    margin: 2em 0;
+}
+
+.button {
+    display: inline-block;
+    padding: 1em 2em;
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 0.5em;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #555;
+}
 
 /* Styling for a footer section to take a bit of spcae at the bottom of the page */
 .footer{
